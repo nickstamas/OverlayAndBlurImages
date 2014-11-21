@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0188F5F41A1E782700E20679 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C00CD11A1E77720052E52E /* UIKit.framework */; };
+		0188F5F51A1E782B00E20679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C00CCE1A1E77550052E52E /* Foundation.framework */; };
+		0188F5F61A1E783400E20679 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C00CC91A1E71E60052E52E /* CoreImage.framework */; };
+		0188F5FC1A1E93DB00E20679 /* MUGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188F5FB1A1E93DB00E20679 /* MUGCollectionViewController.m */; };
+		0188F5FF1A1E962100E20679 /* MUGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188F5FE1A1E962100E20679 /* MUGCell.m */; };
 		01C00C9D1A1E62E90052E52E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00C9C1A1E62E90052E52E /* main.m */; };
 		01C00CA01A1E62E90052E52E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00C9F1A1E62E90052E52E /* AppDelegate.m */; };
-		01C00CA31A1E62E90052E52E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00CA21A1E62E90052E52E /* ViewController.m */; };
 		01C00CA61A1E62E90052E52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C00CA41A1E62E90052E52E /* Main.storyboard */; };
 		01C00CA81A1E62E90052E52E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C00CA71A1E62E90052E52E /* Images.xcassets */; };
 		01C00CAB1A1E62E90052E52E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C00CA91A1E62E90052E52E /* LaunchScreen.xib */; };
 		01C00CB71A1E62E90052E52E /* MUGColorPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00CB61A1E62E90052E52E /* MUGColorPrototypeTests.m */; };
+		01C00CC71A1E63520052E52E /* LEColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00CC41A1E63520052E52E /* LEColorPicker.m */; };
+		01C00CC81A1E63520052E52E /* UIColor+YUVSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00CC61A1E63520052E52E /* UIColor+YUVSpace.m */; };
+		01C00CCC1A1E72A30052E52E /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C00CCB1A1E72A30052E52E /* UIImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0188F5FA1A1E93DB00E20679 /* MUGCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUGCollectionViewController.h; path = ../MUGCollectionViewController.h; sourceTree = "<group>"; };
+		0188F5FB1A1E93DB00E20679 /* MUGCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUGCollectionViewController.m; path = ../MUGCollectionViewController.m; sourceTree = "<group>"; };
+		0188F5FD1A1E962100E20679 /* MUGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGCell.h; sourceTree = "<group>"; };
+		0188F5FE1A1E962100E20679 /* MUGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGCell.m; sourceTree = "<group>"; };
 		01C00C971A1E62E90052E52E /* MUGColorPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUGColorPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C00C9B1A1E62E90052E52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C00C9C1A1E62E90052E52E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01C00C9E1A1E62E90052E52E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01C00C9F1A1E62E90052E52E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01C00CA11A1E62E90052E52E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		01C00CA21A1E62E90052E52E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01C00CA51A1E62E90052E52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01C00CA71A1E62E90052E52E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01C00CAA1A1E62E90052E52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		01C00CB01A1E62E90052E52E /* MUGColorPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MUGColorPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C00CB51A1E62E90052E52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C00CB61A1E62E90052E52E /* MUGColorPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUGColorPrototypeTests.m; sourceTree = "<group>"; };
+		01C00CC01A1E63110052E52E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		01C00CC31A1E63520052E52E /* LEColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEColorPicker.h; sourceTree = "<group>"; };
+		01C00CC41A1E63520052E52E /* LEColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEColorPicker.m; sourceTree = "<group>"; };
+		01C00CC51A1E63520052E52E /* UIColor+YUVSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YUVSpace.h"; sourceTree = "<group>"; };
+		01C00CC61A1E63520052E52E /* UIColor+YUVSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YUVSpace.m"; sourceTree = "<group>"; };
+		01C00CC91A1E71E60052E52E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		01C00CCB1A1E72A30052E52E /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		01C00CCD1A1E72B80052E52E /* UIImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		01C00CCE1A1E77550052E52E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01C00CD11A1E77720052E52E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0188F5F61A1E783400E20679 /* CoreImage.framework in Frameworks */,
+				0188F5F51A1E782B00E20679 /* Foundation.framework in Frameworks */,
+				0188F5F41A1E782700E20679 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 		01C00C8E1A1E62E90052E52E = {
 			isa = PBXGroup;
 			children = (
+				01C00CD01A1E77590052E52E /* Frameworks */,
 				01C00C991A1E62E90052E52E /* MUGColorPrototype */,
 				01C00CB31A1E62E90052E52E /* MUGColorPrototypeTests */,
 				01C00C981A1E62E90052E52E /* Products */,
@@ -81,14 +104,19 @@
 		01C00C991A1E62E90052E52E /* MUGColorPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				01C00CC21A1E63520052E52E /* LEColorPicker */,
 				01C00C9E1A1E62E90052E52E /* AppDelegate.h */,
 				01C00C9F1A1E62E90052E52E /* AppDelegate.m */,
-				01C00CA11A1E62E90052E52E /* ViewController.h */,
-				01C00CA21A1E62E90052E52E /* ViewController.m */,
+				0188F5FA1A1E93DB00E20679 /* MUGCollectionViewController.h */,
+				0188F5FB1A1E93DB00E20679 /* MUGCollectionViewController.m */,
+				0188F5FD1A1E962100E20679 /* MUGCell.h */,
+				0188F5FE1A1E962100E20679 /* MUGCell.m */,
 				01C00CA41A1E62E90052E52E /* Main.storyboard */,
 				01C00CA71A1E62E90052E52E /* Images.xcassets */,
 				01C00CA91A1E62E90052E52E /* LaunchScreen.xib */,
 				01C00C9A1A1E62E90052E52E /* Supporting Files */,
+				01C00CCD1A1E72B80052E52E /* UIImageEffects.h */,
+				01C00CCB1A1E72A30052E52E /* UIImageEffects.m */,
 			);
 			path = MUGColorPrototype;
 			sourceTree = "<group>";
@@ -117,6 +145,29 @@
 				01C00CB51A1E62E90052E52E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C00CC21A1E63520052E52E /* LEColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				01C00CC31A1E63520052E52E /* LEColorPicker.h */,
+				01C00CC41A1E63520052E52E /* LEColorPicker.m */,
+				01C00CC51A1E63520052E52E /* UIColor+YUVSpace.h */,
+				01C00CC61A1E63520052E52E /* UIColor+YUVSpace.m */,
+			);
+			path = LEColorPicker;
+			sourceTree = "<group>";
+		};
+		01C00CD01A1E77590052E52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C00CD11A1E77720052E52E /* UIKit.framework */,
+				01C00CCE1A1E77550052E52E /* Foundation.framework */,
+				01C00CC91A1E71E60052E52E /* CoreImage.framework */,
+				01C00CC01A1E63110052E52E /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			path = MUGColorPrototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C00CA31A1E62E90052E52E /* ViewController.m in Sources */,
+				01C00CC71A1E63520052E52E /* LEColorPicker.m in Sources */,
+				01C00CCC1A1E72A30052E52E /* UIImageEffects.m in Sources */,
 				01C00CA01A1E62E90052E52E /* AppDelegate.m in Sources */,
+				0188F5FC1A1E93DB00E20679 /* MUGCollectionViewController.m in Sources */,
+				0188F5FF1A1E962100E20679 /* MUGCell.m in Sources */,
+				01C00CC81A1E63520052E52E /* UIColor+YUVSpace.m in Sources */,
 				01C00C9D1A1E62E90052E52E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +467,7 @@
 				01C00CBC1A1E62E90052E52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01C00CBD1A1E62E90052E52E /* Build configuration list for PBXNativeTarget "MUGColorPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +476,7 @@
 				01C00CBF1A1E62E90052E52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
